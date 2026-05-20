@@ -1,21 +1,52 @@
 {
   "uuid": "d4e5f6a7-b8c9-0123-defa-234567890abc",
-  "shortName": "PinkFloyd",
+  "shortName": "PFW",
   "longName": "Pink Floyd Watch",
   "companyName": "manaksu",
   "versionLabel": "1.0",
   "sdkVersion": "3",
-  "targetPlatforms": ["basalt"],
-  "watchapp": { "watchface": true },
-  "appKeys": {},
+  "targetPlatforms": [
+    "basalt"
+  ],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "KEY_FONT": 0
+  },
   "resources": {
     "media": [
-      { "type": "bitmap", "name": "IMAGE_PAPER_BG", "file": "images/paper_bg.png", "storageFormat": "pbi" },
-      { "type": "font",   "name": "FONT_SE_14",     "file": "fonts/SpecialElite-Regular.ttf" },
-      { "type": "font",   "name": "FONT_SE_18",     "file": "fonts/SpecialElite-Regular.ttf" }
+      {
+        "type": "bitmap",
+        "name": "IMAGE_PAPER_BG",
+        "file": "images/paper_bg.png",
+        "storageFormat": "pbi"
+      },
+      {
+        "type": "font",
+        "name": "FONT_SE_14",
+        "file": "fonts/SpecialElite-Regular.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_SE_18",
+        "file": "fonts/SpecialElite-Regular.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_SCP_14",
+        "file": "fonts/SourceCodePro-Medium.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_SCP_18",
+        "file": "fonts/SourceCodePro-Medium.ttf"
+      }
     ]
   },
-  "capabilities": [],
+  "capabilities": [
+    "configurable"
+  ],
   "projectType": "native",
   "messageKeys": {}
 }
